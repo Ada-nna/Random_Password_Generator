@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background: #5d6624;
+}
+
+.container{
+    box-sizing: border-box;
+    margin-left: 300px;
+    margin-top: 250px;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 900;
+    color: rgb(255, 145, 0);
+    text-shadow: 3px 3px 7px black;
+    letter-spacing: 2px;
+}
+
+span{
+    color: #ffffff;
+}
+
+input{
+    margin: 20px 0;
+    padding: 16px 20px;
+    position: relative;
+    box-shadow: 1px 1px 5px black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 700px;
+}
+
+.inputDiv img{
+    position: absolute;
+    width: 27px;
+    left: 950px;
+    top: 466px;
+}
+
+hr{
+    width: 498px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    border: 3px dashed rgb(255, 145, 0);
+    box-shadow: 1px 1px 3px black;
+}
+
+button{
+    padding: 16px 20px;
+    font-size: 20px;
+    font-weight: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 145, 0);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+}
+
+button img{
+    width: 27px;
+    margin-right: 5px;
+}
+
+h2{
+    color: rgb(255, 145, 0);
+    text-shadow: 2px 2px 7px black;
+    margin-top: 100px;
+    margin-left: 900px;
+    font-size: 15px;
+    
+}
